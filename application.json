@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home Page",
       "isDefault": true
+    },
+    {
+      "id": "Tanks",
+      "isDefault": false
     }
   ],
   "viewMode": false,
