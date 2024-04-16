@@ -7,6 +7,34 @@
     {
       "id": "Tanks",
       "isDefault": false
+    },
+    {
+      "id": "Procedures",
+      "isDefault": false
+    },
+    {
+      "id": "Plans",
+      "isDefault": false
+    },
+    {
+      "id": "Employees",
+      "isDefault": false
+    },
+    {
+      "id": "Fish",
+      "isDefault": false
+    },
+    {
+      "id": "Reports",
+      "isDefault": false
+    },
+    {
+      "id": "Finances",
+      "isDefault": false
+    },
+    {
+      "id": "Prescriptions",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{test.run().then(() => {\n  get_tanks.run();\n});}}",
+    "onSubmit": "{{test.run().then(() => {\n  get_tanks.run();\n}).catch(() => {\n  showAlert('TankID does not exist!', 'error');\n});}}",
     "topRow": 24,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -149,7 +149,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 109,
+    "originalBottomRow": 116,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
