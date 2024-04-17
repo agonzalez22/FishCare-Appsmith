@@ -334,7 +334,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 84,
+    "bottomRow": 90,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Update Fish Status",
