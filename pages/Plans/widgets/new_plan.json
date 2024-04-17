@@ -3,10 +3,10 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{add_plan.run().then(() => {\n  get_plans.run();\n}).catch(() => {\n  showAlert('PlanID already exists!', 'error');\n});}}",
-    "topRow": 30,
+    "topRow": 49,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 4,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -57,7 +57,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Submit",
+    "submitButtonLabel": "Upload",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -137,7 +137,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 101,
+    "originalBottomRow": 120,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -334,10 +334,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 101,
+    "bottomRow": 120,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Add Plan",
+    "title": "Upload Plan",
     "hideCard": false,
     "mobileRightColumn": 29,
     "parentColumnSpace": 20.90625,
@@ -348,7 +348,7 @@
     "key": "xl9nheg7u6",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 29,
+    "rightColumn": 27,
     "widgetId": "dtxwnkh5jn",
     "minWidth": 450,
     "parentId": "0",
@@ -357,7 +357,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 30,
+    "originalTopRow": 49,
     "mobileLeftColumn": 4,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

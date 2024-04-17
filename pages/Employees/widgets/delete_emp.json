@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{kill_emp.run().then(() => {\n  get_employees.run();\n}).catch(() => {\n  showAlert('You can\\'t fire a manager or employee ID does not exist!', 'error');\n});}}",
-    "topRow": 30,
+    "topRow": 59,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
     "leftColumn": 1,
@@ -57,7 +57,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Submit",
+    "submitButtonLabel": "Terminate",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -137,7 +137,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 57,
+    "originalBottomRow": 86,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -334,10 +334,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 57,
+    "bottomRow": 86,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Terminate Employee Form",
+    "title": "Terminate Employee",
     "hideCard": false,
     "mobileRightColumn": 27,
     "parentColumnSpace": 20.90625,
@@ -357,7 +357,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 30,
+    "originalTopRow": 59,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

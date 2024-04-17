@@ -3,10 +3,10 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{die_fish.run().then(() => {\n  get_fish.run();\n}).catch(() => {\n  showAlert('This fish id does not exist!', 'error');\n});}}",
-    "topRow": 29,
+    "topRow": 46,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 43,
+    "leftColumn": 46,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -57,7 +57,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Submit",
+    "submitButtonLabel": "Remove",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -137,7 +137,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 56,
+    "originalBottomRow": 73,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -334,7 +334,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 56,
+    "bottomRow": 73,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Remove Fish",
@@ -357,7 +357,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 29,
+    "originalTopRow": 46,
     "mobileLeftColumn": 38,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

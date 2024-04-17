@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{add_bill.run().then(() => {\n  get_fin.run();\n}).catch(() => {\n  showAlert('Transaction could not be completed!', '');\n});}}",
-    "topRow": 31,
+    "topRow": 55,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
     "leftColumn": 2,
@@ -51,7 +51,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Submit",
+    "submitButtonLabel": "Upload",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -131,7 +131,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 87,
+    "originalBottomRow": 111,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -287,10 +287,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 87,
+    "bottomRow": 111,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Form",
+    "title": "Upload Finance",
     "hideCard": false,
     "mobileRightColumn": 27,
     "parentColumnSpace": 20.90625,
@@ -310,7 +310,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 31,
+    "originalTopRow": 55,
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

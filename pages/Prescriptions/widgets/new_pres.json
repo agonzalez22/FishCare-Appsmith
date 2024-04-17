@@ -3,10 +3,10 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{add_pres.run().then(() => {\n  get_prescriptions.run();\n}).catch(() => {\n  showAlert('This prescription could not be added', 'error');\n});}}",
-    "topRow": 31,
+    "topRow": 11,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 1,
+    "leftColumn": 37,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -48,7 +48,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Submit",
+    "submitButtonLabel": "Upload",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -128,7 +128,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 80,
+    "originalBottomRow": 60,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -256,10 +256,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 80,
+    "bottomRow": 60,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Add New Prescription",
+    "title": "Upload Prescription",
     "hideCard": false,
     "mobileRightColumn": 26,
     "parentColumnSpace": 20.90625,
@@ -270,7 +270,7 @@
     "key": "xl9nheg7u6",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 26,
+    "rightColumn": 62,
     "widgetId": "0zl4oia1nq",
     "minWidth": 450,
     "parentId": "0",
@@ -279,7 +279,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 31,
+    "originalTopRow": 11,
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

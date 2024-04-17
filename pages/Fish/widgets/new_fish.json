@@ -3,10 +3,10 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{add_fish.run().then(() => {\n  get_fish.run();\n}).catch(() => {\n  showAlert('Invalid Fields!', 'error');\n});}}",
-    "topRow": 27,
+    "topRow": 46,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 17,
+    "leftColumn": 20,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -57,7 +57,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Submit",
+    "submitButtonLabel": "Upload",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -137,7 +137,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 98,
+    "originalBottomRow": 117,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -334,10 +334,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 98,
+    "bottomRow": 117,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Add Fish",
+    "title": "Upload Fish",
     "hideCard": false,
     "mobileRightColumn": 53,
     "parentColumnSpace": 20.90625,
@@ -348,7 +348,7 @@
     "key": "xl9nheg7u6",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 42,
+    "rightColumn": 44,
     "widgetId": "7t21go9r2q",
     "minWidth": 450,
     "parentId": "0",
@@ -357,7 +357,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 27,
+    "originalTopRow": 46,
     "mobileLeftColumn": 28,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

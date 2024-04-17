@@ -3,10 +3,10 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{test.run().then(() => {\n  get_tanks.run();\n}).catch(() => {\n  showAlert('TankID does not exist!', 'error');\n});}}",
-    "topRow": 24,
+    "topRow": 57,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -57,7 +57,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "autoGenerateForm": true,
     "resetButtonStyles": {
-        "boxShadow": "none",
+        "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "SECONDARY"
@@ -69,7 +69,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Submit",
+    "submitButtonLabel": "Update",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -149,7 +149,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 116,
+    "originalBottomRow": 149,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -447,10 +447,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 116,
+    "bottomRow": 149,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Daily Checkup",
+    "title": "Daily Check-Up",
     "hideCard": false,
     "mobileRightColumn": 29,
     "parentColumnSpace": 15.65625,
@@ -459,9 +459,9 @@
     "sourceData": "{{Table1.selectedRow}}",
     "resetButtonLabel": "Reset",
     "key": "xl9nheg7u6",
-    "backgroundColor": "#fff",
+    "backgroundColor": "#ffffff",
     "isDeprecated": false,
-    "rightColumn": 25,
+    "rightColumn": 26,
     "widgetId": "b47indfj2u",
     "minWidth": 450,
     "parentId": "0",
@@ -470,7 +470,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 24,
+    "originalTopRow": 57,
     "mobileLeftColumn": 4,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

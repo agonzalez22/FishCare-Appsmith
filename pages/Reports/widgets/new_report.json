@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{add_report.run().then(() => {\n  get_reports.run();\n}).catch(() => {\n  showAlert('Some input was wrong!', 'error');\n});}}",
-    "topRow": 32,
+    "topRow": 53,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
     "leftColumn": 3,
@@ -54,7 +54,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Submit",
+    "submitButtonLabel": "Upload",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -134,7 +134,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 95,
+    "originalBottomRow": 116,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -308,10 +308,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 95,
+    "bottomRow": 116,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Make New Report",
+    "title": "Upload Report",
     "hideCard": false,
     "mobileRightColumn": 26,
     "parentColumnSpace": 20.90625,
@@ -331,7 +331,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 32,
+    "originalTopRow": 53,
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

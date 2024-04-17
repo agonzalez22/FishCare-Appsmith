@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{change_proc.run().then(() => {\n  get_procedures.run();\n}).catch(() => {\n  showAlert('ProcID does not exist!', 'error');\n});}}",
-    "topRow": 42,
+    "topRow": 56,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
     "leftColumn": 1,
@@ -54,7 +54,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Submit",
+    "submitButtonLabel": "Update",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -134,7 +134,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 83,
+    "originalBottomRow": 97,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -308,10 +308,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 83,
+    "bottomRow": 97,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Change Procedure Info",
+    "title": "Update Procedure",
     "hideCard": false,
     "mobileRightColumn": 26,
     "parentColumnSpace": 20.90625,
@@ -322,7 +322,7 @@
     "key": "xl9nheg7u6",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 26,
+    "rightColumn": 27,
     "widgetId": "acht42o4cu",
     "minWidth": 450,
     "parentId": "0",
@@ -331,7 +331,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 42,
+    "originalTopRow": 56,
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

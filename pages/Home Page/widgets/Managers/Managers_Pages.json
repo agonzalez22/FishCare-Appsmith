@@ -71,7 +71,7 @@
         },
         "groupButton1": {
             "onClick": "{{navigateTo('Employees', {}, 'SAME_WINDOW');}}",
-            "buttonType": "MENU",
+            "buttonType": "SIMPLE",
             "iconName": "",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",

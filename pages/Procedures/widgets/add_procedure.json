@@ -3,10 +3,10 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{new_proc.run().then(() => {\n  get_procedures.run();\n}).catch(() => {\n  showAlert('There already exists a procedure with this ID!', 'error');\n});}}",
-    "topRow": 42,
+    "topRow": 56,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 28,
+    "leftColumn": 30,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -54,7 +54,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Submit",
+    "submitButtonLabel": "Uplod",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -134,7 +134,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 105,
+    "originalBottomRow": 119,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -308,10 +308,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 105,
+    "bottomRow": 119,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Add Procedure",
+    "title": "Upload Procedure",
     "hideCard": false,
     "mobileRightColumn": 53,
     "parentColumnSpace": 20.90625,
@@ -322,7 +322,7 @@
     "key": "xl9nheg7u6",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 53,
+    "rightColumn": 57,
     "widgetId": "kejnrd8u4k",
     "minWidth": 450,
     "parentId": "0",
@@ -331,7 +331,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 42,
+    "originalTopRow": 56,
     "mobileLeftColumn": 28,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
